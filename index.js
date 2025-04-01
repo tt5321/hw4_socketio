@@ -8,15 +8,16 @@ const ioServer = new Server(server);
 app.use(express.static("frontend/dist"));
 
 ioServer.on('connection', (socket) => {
-    console.log('a user connected', socket.id);
+    console.log('A user connected', socket.id);
 
     socket.on('message', (message) => {
-        console.log('Message from client: ', message);
+        const time = new Date().toLocaleTimeString();
+        console.log('Message from client -', message, " [", time, "]"); // Log the message with timestamp to the console
         ioServer.emit('message', message);
     });
     
     socket.on('disconnect', () => {
-        console.log('a user disconnected', socket.id);
+        console.log('A user disconnected', socket.id);
     });
 });
 
