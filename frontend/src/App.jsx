@@ -16,8 +16,8 @@ function App() {
     socket.on("message", (msg) => {
       console.log("Message received:", msg);
       setMessages((prevMessages) => [...prevMessages, msg]);
-    })
-  });
+    });
+  }, []);
 
   return (
     <>
@@ -29,7 +29,7 @@ function App() {
         ))}
       </ul>
       <ul id="messages"></ul>
-      <form id="form" onSubmit={handleSendMessage}>
+      <form id="form" onSubmit={handleSendMessage} >
         <input id="input" autocomplete="off" name="msg" />
         <button type="submit">Send</button>
       </form>
