@@ -51,3 +51,6 @@ npm start
 - Use: To debug my code of sending a private message back to the sender ("socket.on('message',. ..)" in index.js).
 
 2. Use ChatGPT (4o mini) to improve the clarity and phrasing of the expressions in this README.md.
+
+## Author
+Tiantian Ma
