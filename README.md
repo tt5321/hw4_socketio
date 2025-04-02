@@ -35,7 +35,9 @@ npm start
 - Display a list of online users by their socket IDs: Whenever a new user connects or an existing user disconnects, the list will be updated in real-time for all connected clients.
 - Send private messages to a single user: Users can select a recipient from a dropdown menu, with options including 'All' (to broadcast to all users) and all other users except themselves. The private messages will only be visible to the sender and the selected recipient on their respective webpages.
 
-## Video
+## Videos
+- Demo video: https://youtu.be/9XNdOgOvIF0
+- Code explanation video: https://youtu.be/2S2yuJDUoss
 
 ## Use of AI
 1. Prompt: Using socket IO, I want to send a message back to the sender. What's wrong with my code?
