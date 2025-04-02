@@ -31,7 +31,7 @@ npm start
     - Clients log and display the message (with the sender’s socket ID) and the timestamp when the message is received from the server
 - Add creative features (see below)
 
-### Creative Features
+## Creative Features
 - Display a list of online users by their socket IDs: Whenever a new user connects or an existing user disconnects, the list will be updated in real-time for all connected clients.
 - Send private messages to a single user: Users can select a recipient from a dropdown menu, with options including 'All' (to broadcast to all users) and all other users except themselves. The private messages will only be visible to the sender and the selected recipient on their respective webpages.
 
