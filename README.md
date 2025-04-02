@@ -3,12 +3,13 @@ Implement Socket IO with React/vite to achieve a basic chat application
 
 ## Setting Up
 1. Download the zip file and unzip
-2. Install modules
+2. Install modules and build
 ```
-cd hw4_socketio
+cd hw4_socketio-main
 npm install
 cd frontend
 npm install
+npm run build
 ```
 3. To start running the web server:
 ```
